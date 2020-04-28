@@ -1,0 +1,120 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {font-family: 'Raleway', sans-serif;}
+
+nav ul a,
+nav .brand-logo {
+  color: #ef5350;
+}
+nav .brand-logo {
+ font-family: 'Satisfy', cursive;
+}
+
+.nav-wrapper {
+    padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #ef5350;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .section-intro {
+    height:100%;
+    width:100%;}
+
+  .header{margin-top: 19%;
+          font-weight: 300;
+         }
+
+  .headersubtitle{margin-top: 10%;
+                  font-weight: 300;
+                  font.size:1,2em;
+                }         
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  } 
+  .nav-wrapper {
+    padding:0 5px;}
+
+}
+
+  .colservices{margin-top: 100px;
+               margin-bottom: 100px;
+  }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#services h5 {font-size: 1.3em;
+              line-height: 1.5em;
+
+}
+.section-register {
+    height:100%;
+    width:100%;}
+.register-icon{font-size: 5em;
+                    margin-top: 60px;
+            }        
+.register-subtitle{font-size: 1.3em;
+                    margin-top: 5%;
+}
+.btn-register{width: 100%;}
+
+.form-icon{font-size: 5em;
+           margin-top: 60px;
+}        
+.form-subtitle{font-size: 1.3em;
+                    margin-top: 5%;
+                    line-height: 2em;
+   }   
+.btn-form{width: 100%;}
+          
+   footer.page-footer {
+  margin: 0;
+  background-color: #305467;
+   } 
+.social-icon{
+  font-size: 1.5em;
+  color:#fff;
+  padding: 0 10px;
+
+   } 
+   .social-icon:hover  {
+  color: #ef5350;
+}
+.linkpagehome:hover  {
+  color: #ef5350;
+}
